@@ -1,0 +1,47 @@
+import type { SkillCategory } from "../features/analyzer/analyzer.types";
+
+export const SKILL_KEYWORDS: Record<SkillCategory, string[]> = {
+  frontend: [
+    "react",
+    "typescript",
+    "javascript",
+    "html",
+    "css",
+    "tailwind",
+    "redux",
+    "zustand",
+    "next.js",
+    "responsive design",
+    "accessibility",
+  ],
+  backend: [
+    "node.js",
+    "express",
+    "api",
+    "rest",
+    "graphql",
+    "mongodb",
+    "postgresql",
+    "firebase",
+    "supabase",
+  ],
+  tools: [
+    "git",
+    "github",
+    "vite",
+    "webpack",
+    "jest",
+    "testing",
+    "figma",
+    "ci/cd",
+    "vercel",
+  ],
+  softSkills: [
+    "communication",
+    "collaboration",
+    "leadership",
+    "problem solving",
+    "ownership",
+    "mentoring",
+  ],
+};
