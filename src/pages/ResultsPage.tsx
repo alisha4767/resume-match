@@ -2,6 +2,7 @@ import { Download, Plus } from "lucide-react";
 import { Link, useParams } from "react-router";
 import { KeywordList } from "../components/analyzer/KeywordList";
 import { MatchSummary } from "../components/analyzer/MatchSummary";
+import { ScoreExplanation } from "../components/analyzer/ScoreExplanation";
 import { SkillChart } from "../components/analyzer/SkillChart";
 import { SuggestionsList } from "../components/analyzer/SuggestionsList";
 import { Button } from "../components/common/Button";
@@ -64,6 +65,8 @@ export function ResultsPage() {
       </div>
 
       <MatchSummary result={result} />
+
+      <ScoreExplanation result={result} />
 
       <div className="grid gap-6 lg:grid-cols-2">
         <KeywordList
