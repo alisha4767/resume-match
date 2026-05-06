@@ -46,9 +46,9 @@ This project was built as a resume-worthy frontend project to demonstrate real-w
 Add your screenshots here after running the app.
 
 ```md
-![Home Page](./public/home-preview.png)
-![Analyzer Page](./public/analyzer-preview.png)
-![Dashboard Page](./public/dashboard-preview.png)
+![Home Page](./public/Home-preview.png)
+![Analyzer Page](./public/Analyze-preview.png)
+![Dashboard Page](./public/Dashboard-preview.png)
 ```
 
 ---
@@ -160,6 +160,7 @@ Based on the number of matched and missing keywords, it calculates a match score
 ### Home Page
 
 A polished landing page that introduces the product and explains its value.
+
 
 ### Analyzer Page
 
