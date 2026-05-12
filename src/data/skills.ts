@@ -1,5 +1,4 @@
 import type { SkillCategory } from "../features/analyzer/analyzer.types";
-
 export const SKILL_KEYWORDS: Record<SkillCategory, string[]> = {
   frontend: [
     "react",
